@@ -1,0 +1,315 @@
+/* RESET 
+
+@import url {'https://fonts.googleapis.com/css2?family+Lobster+Two:wght@400;700&display=swap'};
+
+
+{
+    margin: 0;
+    padding: 0;
+SOMETHING NEW
+    box-sizing: border-box;
+ combines padding and border values into the width value so that an element with a width of, say, 1800px remains at that width even with padding and border */
+
+h1, h2, h3, h4, h5, h6, p , a, li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+h3 {
+    font-size: 45px;
+    font-family: cursive;
+}
+/* HEADER AND FOOTER */
+main {
+    display: inline;
+    align-self: center;
+}
+main image {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+header {
+    background-color: rgb(236, 169, 163);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+/*
+.fixed-header, .fixed footer {
+    width: 100%;
+    padding: 10px 0px;
+    max-width: inherit;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 0 0 2px #fff;
+}
+.fixed-header {
+    top: 0;
+}
+.fixed-footer {
+    bottom: 0;
+}
+h1 header {
+    text-align: center;
+    font-weight: 50px;
+}
+/* SOMETHING NEW  
+    nav li:nth-child(1) {
+    margin-left: 0px;
+    }*/
+footer {
+    background-color: rgb(252, 252, 252);
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/*
+.footer-flex {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+*/
+body {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+nav {
+    width: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+nav li {
+    display: inline-block;
+    margin-left: 0px;
+}
+.gfg {
+    margin: 3%;
+    position: relative;
+}
+
+.first-txt {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    color: #fff;
+}
+
+  
+/* SOMETHING NEW 
+    nav Li:nth-child(1) {
+    margin-left: 0px;
+ this is applied to only the first
+list item in the nav element 
+}
+
+/*.footer-flex {
+    max-width:
+    1200px;
+    margin: 0px auto;
+    padding: 10px;
+    display:flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+.credit {
+    text-align: center;
+    font-size: 0.75em;
+    color: I#ccc;
+}
+.credit a {
+    font-size: 1em;
+    font-weight: bold;
+    color: D#ccc;
+ }
+/* MAIN CONTENT */ 
+.hero {
+    margin: 20px auto;
+    max-width: 1240px;
+    padding:
+    0px 20px;
+}
+.hero img {
+    width: 100%;
+    display: block
+}
+.container {
+    max-width: 1440px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px 80px Opx;
+    text-align: start;
+    display: inline-block;
+}
+.card {
+    background-color: #eee;
+    width: 300px;
+    text-align: start;
+    margin:10px 10px;
+    padding: 40px;
+    height: 600px;
+    width: 450px;
+}
+.card h2 {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+.card p {
+    font-size: 1.25em;
+}
+.card img {
+    width: 100%;
+} 
+.details {
+    background-color: I#eee;
+    width: 824px;
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+}
+.details h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.details p {
+    font-size: 1.25em;
+}
+.details img {
+    width: 50%;
+    margin-right:40px;
+}
+.button {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    background-color: O#fff;
+    box-shadow: 0px Opx 10px I#ddd;
+    width: 100px;
+    margin: 16px 0px 0px Opx;
+    padding: 8px 4px;
+    border-radius: 10px;
+    }
+.button:hover {
+    background-color: #ccc;
+    color: #555;
+}
+.button a {
+    font-weight: bold;
+    color:#222;
+}
+   
+/* FORM FIELDS ON SIGNUP PAGE */
+
+.form {
+    width: 400px;
+    margin: 20px auto;
+}
+.form input {
+    font-size: 1.25em;
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 6pX;
+}
+.form-button {
+    text-align: center;
+    background-color: #222;
+    width: 300px;
+    margin: 0px auto;
+    padding: 6px;
+}
+
+.form-button a {
+    color: O#fff;
+    font-size: 1.25em;
+}
+
+.newsletter {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+/* SOMETHING NEW */
+/* background image */
+
+•hero-image {
+    background-image:url("images/raincoat-wide-1160x500.jpg");
+    background-color: #cccccc;
+    /* background color appears if image is unavailable */
+    height: 500px;
+    max-width: 1160px;
+    margin: 20px auto;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    /* this allows for the text div position to be absolute */
+}
+.hero-text p {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* this positions text in the center of the image div */
+    color: white;
+    font-size: 4em;
+    text-shadow: 0px 0px 18px ™1#999999;
+    /* this adds a drop shadow to the text */
+}
+
+/* SOMETHING NEW */
+/* media queries for two different widths */
+
+/* this one changes the flex direction and adjusts the signup text 
+@media only screen and (max-width: 750px) {
+    header {
+        flex-direction: column;
+    }
+    .newsletter {
+        margin: 20px 60px 0px 60px;
+    }
+}
+/* this one only affects the products page 
+@media only screen and (max-width: 890px) {
+    .Container {
+        margin: 136px auto 0px auto;
+    }
+}
+
+/* this one only affects the details page 
+@media only screen and (max-width: 925px) {
+    .details {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 40px;
+        flex-direction: column;
+    }
+    .details img {
+    width: 100%;
+    margin-bottom: 10px
+    }
+    .details h2, .details p {
+    margin-left: 30px;
+    }
+}*/
