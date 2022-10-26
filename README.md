@@ -1,2 +1,1 @@
-# project-1-website
-[COURSE #] Project 1 Website
+# Project 1 Website
